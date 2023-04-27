@@ -1,0 +1,10 @@
+version: '3'
+services:
+  db:
+    image: postgres
+    environment:
+      POSTGRES_USER: huongbui
+      POSTGRES_PASSWORD: huongbui
+      POSTGRES_DB: mock_project
+    ports:
+      - "3306:5432"
